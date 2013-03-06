@@ -56,3 +56,109 @@ body {
 		order: 3;
 	}
 }
+/***************************************************
+ * Page header
+ ***************************************************/
+.l-page-header {
+	
+	@media (min-width:30em) {
+		position: relative;
+	}
+}
+
+
+/***************************************************
+ * Burst out
+ ***************************************************/
+.l-burstout {
+	width: 100%;
+	padding: 0 7.3170731707315% 1em;
+	margin-left: -7.3170731707315%;
+}
+
+/* Search form
+ *****************************/
+.l-topsearch {
+	margin-bottom: 0.5em;
+}
+	
+@media (min-width:18.3125em) {
+	.l-topsearch {
+		position: absolute;
+		top: -200%;
+	}
+}
+
+@media (min-width:30em) {
+	.l-topsearch {
+		display: block;
+		width: 38%;
+		position: absolute;
+		top: 0.5em;
+		right: 0;
+	}
+}
+
+@media (min-width:45em) {
+	.l-topsearch {
+		width: 33.33333333333%;
+		top: 2em;
+	}
+}
+
+/* Social buttons
+ *****************************/
+@media (min-width:18.3125em) {
+	.l-topshare {
+		position: absolute;
+		top: -200%;
+	}
+}
+
+@media (min-width:30em) {
+	.l-topshare {
+		position: absolute;
+		top: 0.6875em;
+		right: 40%;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media (min-width:45em) {
+	.l-topshare {
+		top: 2em;
+		right: 35%;
+	}
+}
+
+.l-share {
+	margin: 0 1em;
+}
+
+/* Toggle buttons 
+ *****************************/
+.l-openers {
+	display: none;
+}
+	
+@media (min-width:18.3125em) {
+	.l-openers {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		right: 2.5%;
+		top: 1.25em;
+	}
+}
+
+@media (min-width:30em) {
+	.l-openers {
+		display: none;
+	}
+}
+
+.l-opener {
+	display: inline-block;
+	margin-left: 0.4375em;
+}
