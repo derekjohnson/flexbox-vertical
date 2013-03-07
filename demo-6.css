@@ -1,5 +1,5 @@
 body {
-	background: blue;
+	background: bisque;
 	line-height: 1.4;
 	width: 75%;
 	max-width: 75em;
@@ -7,16 +7,20 @@ body {
 }
 
 .main {
-	background: #ddd;
+	display: block;
+	background: lightcoral;
 	padding: 2em;
+	margin-bottom: 1.4em;
+}
+
+.section-nav {
+	background: mintcream;
+	padding: 1em 0;
 	margin-bottom: 1.4em;
 }
 
 
 
-.l-main {
-	display: block;
-}
 
 @media (min-width:40em) {
 	.l-lap-half {
@@ -29,6 +33,35 @@ body {
 }
 
 @media (min-width:55em) {
+	.l-desk-quarter {
+		width: 21%;
+	}
+}
+
+@media (min-width:30em) {
+	.l-lap-half {
+		vertical-align: top;
+		display: inline-block;
+		width: 46%;
+		padding: 0;
+		margin: 0 2% 1.4em;
+	}
+}
+
+@media (min-width:50em) {
+	.l-main {
+		box-sizing: border-box;
+		display: inline-block;
+		width: 60%;
+		margin-right: 10%;
+	}
+
+	.l-sidebar {
+		vertical-align: top;
+		display: inline-block;
+		width: 30%;
+	}
+
 	.l-desk-quarter {
 		width: 21%;
 	}

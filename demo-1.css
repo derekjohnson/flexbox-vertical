@@ -1,0 +1,45 @@
+body {
+	background: bisque;
+	line-height: 1.4;
+	width: 75%;
+	max-width: 75em;
+	margin: 0 auto;
+}
+
+.wrap {
+	outline: 2px dotted mediumseagreen;
+}
+
+.main {
+	background: lightcoral;
+	padding: 2em;
+	margin-bottom: 1.4em;
+}
+
+.section-nav {
+	background: mintcream;
+	padding: 1em 0;
+	margin-bottom: 1.4em;
+}
+
+
+
+.l-main {
+	display: block;
+}
+
+@media (min-width:40em) {
+	.l-lap-half {
+		vertical-align: top;
+		display: inline-block;
+		width: 46%;
+		padding: 0;
+		margin: 0 2% 1.4em;
+	}
+}
+
+@media (min-width:55em) {
+	.l-desk-quarter {
+		width: 21%;
+	}
+}
